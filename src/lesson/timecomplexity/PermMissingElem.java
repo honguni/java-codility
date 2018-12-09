@@ -1,7 +1,7 @@
 package lesson.timecomplexity;
 
 public class PermMissingElem {
-    public int solution3_1(int[] A) {
+    public int solution(int[] A) {
     	boolean[] occurred = new boolean[A.length + 2];
     	
     	for(int i=0; i<A.length; i++) {
